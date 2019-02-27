@@ -23,7 +23,7 @@ function BoardMember(name, homeState, training){
 }
 
 class Ceo extends BoardMember{
-  this.hireEmployee = function(){
+  hireEmployee(){
     return 'Welcome aboard!'
   }
 }
